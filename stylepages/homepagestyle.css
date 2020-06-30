@@ -83,18 +83,58 @@ img {
 }
 
 /* Project Styling */
-.project-journalr {
-    color: red;
+
+#projects {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
 }
 
-.project-travollor {
-    color: lime;
+#journalr {
+    background-color: red;
+    grid-column: 1;
+    grid-row: 1;
 }
 
-.project-cd-demise {
-    color: blue;
+#journalr-video {
+    background-color: rgb(230, 130, 130);
+    grid-column: 2;
+    grid-row: 1;
 }
 
-.project-relational-algebra-division-queries {
-    color: purple;
+#travollor {
+    background-color: lime;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#travollor-video {
+    background-color: rgb(140, 236, 140);
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#cd-demise {
+    background-color: blue;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#cd-demise-images {
+    background-color: rgb(138, 138, 245);
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#relational-algebra-division-queries {
+    background-color: purple;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#relational-algebra-division-queries-video {
+    background-color: rgb(241, 125, 241);
+    grid-column: 1;
+    grid-row: 4;
 }

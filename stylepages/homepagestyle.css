@@ -19,10 +19,6 @@ nav {
     padding: 0;
 }
 
-#about-me {
-    border: 1px solid red;
-}
-
 #nav-bar {
     height: 100%;
     list-style-type: none;
@@ -75,4 +71,30 @@ nav {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* About Me section styling */
+#about-me {
+    background-color: lightgrey;
+}
+
+#about-me p {
+    color: black;
+}
+
+/* Project Styling */
+.project-journalr {
+    color: red;
+}
+
+.project-travollor {
+    color: lime;
+}
+
+.project-cd-demise {
+    color: blue;
+}
+
+.project-relational-algebra-division-queries {
+    color: purple;
 }

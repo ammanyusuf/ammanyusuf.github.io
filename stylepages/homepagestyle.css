@@ -8,6 +8,7 @@ header {
     font-size: 1em;
 }
 
+/* Navigation Bar Styling */
 nav {
     background-color: darkslategrey;
 }
@@ -67,4 +68,11 @@ nav {
 
 .nav-bar-item a:hover {
     color: black;
+}
+/*----------------- Navigation Bar Ending --------------------*/
+
+/* Image Styling*/
+img {
+    max-width: 100%;
+    height: auto;
 }

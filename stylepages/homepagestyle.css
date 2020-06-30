@@ -11,3 +11,7 @@ nav {
     margin: 0;
     padding: 0;
 }
+
+#about-me {
+    border: 1px solid red;
+}

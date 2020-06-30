@@ -1,9 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     font-size: 1em;
 }
 
 nav {
-    background-color: #1F1E27;
+    background-color: darkslategrey;
 }
 
 .nobullets {
@@ -14,4 +20,30 @@ nav {
 
 #about-me {
     border: 1px solid red;
+}
+
+#nav-bar {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+    display: flex;
+    flex-wrap: wrap;
+}
+#nav-bar a {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-bar-item {
+    border: 0.1px solid lightblue;
+    position: relative;
+    padding: 15px 15px;
+}
+
+.nav-bar-item:hover {
+    background-color: aqua;
 }

@@ -11,6 +11,8 @@ header {
 footer {
     font-size: 1em;
     background-color: antiquewhite;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
 h1 {
@@ -140,7 +142,8 @@ iframe {
 }
 
 #projects a {
-    color: black;
+    color: antiquewhite;
+    background-color: rgba(11, 122, 122, 0.61);
     text-align: center;
     text-decoration: none;
     /* This piece of code made the entire anchor tag clickable*/
@@ -149,6 +152,14 @@ iframe {
     /*--------------------------------------------------------*/
     width: 100%;
     font-size: 5vh;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#projects a:hover {
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
 }
 
 #projects {
@@ -177,43 +188,20 @@ iframe {
     grid-row: 2;
 }
 
-#cd-demise {
+#relational-algebra-division-queries {
     grid-column: 1;
     grid-row: 3;
-}
-
-#cd-demise-description {
-    grid-column: 2;
-    grid-row: 3;
-}
-
-/*
-#cd-demise-images {
-    background-color: rgb(138, 138, 245);
-    grid-column: 2;
-    grid-row: 3;
-}
-
-
-
-
-.images {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}*/
-
-#relational-algebra-division-queries {
-    grid-column: 2;
-    grid-row: 4;
 }
 
 #relational-algebra-division-queries-video {
-    grid-column: 1;
-    grid-row: 4;
+    grid-column: 2;
+    grid-row: 3;
 }
 
+#cd-demise {
+    grid-column: auto / span 2;
+    grid-row: 4;
+}
 
 @media all and (max-width: 400px) {
     #projects {
@@ -240,23 +228,20 @@ iframe {
         grid-column: 1;
         grid-row: 4;
     }
-    #cd-demise {
+    
+    #relational-algebra-division-queries {
         grid-column: 1;
         grid-row: 5;
     }
     
-    #cd-demise-description {
+    #relational-algebra-division-queries-video {
         grid-column: 1;
         grid-row: 6;
     }
-    #relational-algebra-division-queries {
+
+    #cd-demise {
         grid-column: 1;
         grid-row: 7;
-    }
-    
-    #relational-algebra-division-queries-video {
-        grid-column: 1;
-        grid-row: 8;
     }
 
     #projects p {

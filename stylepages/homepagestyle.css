@@ -10,7 +10,11 @@ header {
 
 footer {
     font-size: 1em;
-    background-color: yellow;
+    background-color: antiquewhite;
+}
+
+br {
+    background-color: antiquewhite;
 }
 
 /* Navigation Bar Styling */
@@ -29,9 +33,12 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: darkslategray;
+    background-color: rgba(11, 122, 122, 0.61);
     display: flex;
     flex-wrap: wrap;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 
 .nav-bar-item {
@@ -53,7 +60,7 @@ nav {
 }
 
 .nav-bar-item a {
-    color: rgb(211, 211, 211);
+    color: antiquewhite;
     text-align: center;
     text-decoration: none;
     /* This piece of code made the entire anchor tag clickable*/
@@ -64,7 +71,7 @@ nav {
 }
 
 .nav-bar-item:hover {
-    background-color: rgb(211, 211, 211);;
+    background-color: antiquewhite;
 }
 
 .nav-bar-item a:hover {
@@ -78,14 +85,47 @@ img {
     height: auto;
 }
 
+.img-text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 /* About Me section styling */
 #about-me {
-    background-color: lightgrey;
+    background-color: antiquewhite;
 }
 
 #about-me p {
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: 5px 15px;
 }
+
+@media all and (max-width: 800px) {
+    .img-text-container {
+        flex-wrap: wrap;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    #about-me p {
+        font-size: medium;
+    }
+}
+
+@media all and (max-width: 100px) {
+    #about-me p {
+        font-size: small;
+    }
+}
+
 
 /* iFrame Wrapper */
 iframe {
@@ -99,41 +139,36 @@ iframe {
 
 #projects {
     display: grid;
+    background-color: antiquewhite;
     width: 100%;
 }
 
 #journalr {
-    background-color: red;
     grid-column: 1;
     grid-row: 1;
 }
 
 #journalr-video {
-    background-color: rgb(230, 130, 130);
     grid-column: 2;
     grid-row: 1;
 }
 
 #travollor {
-    background-color: lime;
     grid-column: 2;
     grid-row: 2;
 }
 
 #travollor-video {
-    background-color: rgb(140, 236, 140);
     grid-column: 1;
     grid-row: 2;
 }
 
 #cd-demise {
-    background-color: blue;
     grid-column: 1;
     grid-row: 3;
 }
 
 #cd-demise-description {
-    background-color: rgb(138, 138, 245);
     grid-column: 2;
     grid-row: 3;
 }
@@ -156,23 +191,15 @@ iframe {
 }*/
 
 #relational-algebra-division-queries {
-    background-color: purple;
     grid-column: 2;
     grid-row: 4;
 }
 
 #relational-algebra-division-queries-video {
-    background-color: rgb(241, 125, 241);
     grid-column: 1;
     grid-row: 4;
 }
 
-/* resizing the grid */
-/*@media all and (min-width: 400px) {
-    #projects {
-        grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
-    }
-}*/
 
 @media all and (max-width: 400px) {
     #projects {
@@ -186,41 +213,34 @@ iframe {
     }
     
     #journalr-video {
-        background-color: rgb(230, 130, 130);
         grid-column: 1;
         grid-row: 2;
     }
     
     #travollor {
-        background-color: lime;
         grid-column: 1;
         grid-row: 3;
     }
     
     #travollor-video {
-        background-color: rgb(140, 236, 140);
         grid-column: 1;
         grid-row: 4;
     }
     #cd-demise {
-        background-color: blue;
         grid-column: 1;
         grid-row: 5;
     }
     
     #cd-demise-description {
-        background-color: rgb(138, 138, 245);
         grid-column: 1;
         grid-row: 6;
     }
     #relational-algebra-division-queries {
-        background-color: purple;
         grid-column: 1;
         grid-row: 7;
     }
     
     #relational-algebra-division-queries-video {
-        background-color: rgb(241, 125, 241);
         grid-column: 1;
         grid-row: 8;
     }

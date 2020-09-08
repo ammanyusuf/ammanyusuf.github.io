@@ -206,42 +206,43 @@ iframe {
 @media all and (max-width: 400px) {
     #projects {
         grid-template-columns: 100%;
-        grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        /*grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     }
 
     #journalr {
         grid-column: 1;
-        grid-row: 1;
+        grid-row: 1 /span 2;
     }
     
     #journalr-video {
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 3;
     }
     
     #travollor {
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 4 / span 2;
     }
     
     #travollor-video {
         grid-column: 1;
-        grid-row: 4;
+        grid-row: 6;
     }
     
     #relational-algebra-division-queries {
         grid-column: 1;
-        grid-row: 5;
+        grid-row: 7 / span 2;
     }
     
     #relational-algebra-division-queries-video {
         grid-column: 1;
-        grid-row: 6;
+        grid-row: 9;
     }
 
     #cd-demise {
         grid-column: 1;
-        grid-row: 7;
+        grid-row: 10;
     }
 
     #projects p {

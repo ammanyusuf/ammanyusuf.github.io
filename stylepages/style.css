@@ -21,57 +21,79 @@ footer {
 
 
 /* Nav Bar */
+
+main {
+    margin-top: 10vh;
+}
+
 .nobullets {
     list-style-type: none;
 }
 
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
 #nav-bar {
-    height: 100%;
     list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
     font-family: 'Cairo', sans-serif;
-    font-size: 3em;
+    font-size: 3vh;
 }
 
 .nav-bar-item {
     border: 0.1px solid black;
-    margin: 10px;
-    border-radius: 100px;
+    
     /*width: 20%;*/
     flex: 1;
 }
-
+/*
 @media all and (max-width: 400px) {
+    nav {
+        position: relative;
+    }
+    main {
+        margin-top: 0px;
+    }
     .nav-bar-item {
         flex-basis: 100%;
     }
 }
 
 @media all and (max-width: 600px) {
+
+    nav {
+        position: relative;
+    }
+
+    main {
+        margin-top: 0px;
+    }
     .nav-bar-item {
-        flex-basis: 50%;
-        font-size: 7vh;
+        flex-basis: 100%;
+        font-size: 3vh;
     }
     #nav-bar {
-        font-size: 5vh;
+        font-size: 3vh;
     }
 }
-
+*/
 .nav-bar-item a {
     color: black;         ;
     text-align: center;
     text-decoration: none;
     /* This piece of code made the entire anchor tag clickable*/
     display: inline-block;
-    padding: 15px 15px;
+    padding: 1vh 1vh;
     /*--------------------------------------------------------*/
     width: 100%;
-    font-size: 5vh;
+    font-size: 4vh;
 }
 
 .nav-bar-item:hover {
@@ -107,15 +129,11 @@ iframe {
 #about-me {
     grid-column: 1;
     grid-row: 1;
-
-    justify-self: center;
 }
 
 .responsive-img {
     width: 30%;
     height: auto;
-    margin-left: 35%;
-    margin-right: 30%;
 }
 
 
@@ -153,7 +171,7 @@ iframe {
 }
 
 #waitless {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
 
     overflow: auto;
@@ -164,7 +182,7 @@ iframe {
 }
 
 #journalr {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
 
     align-self: center;
@@ -172,7 +190,7 @@ iframe {
 }
 
 #travollor {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 3;
 
     align-self: center;
@@ -180,7 +198,7 @@ iframe {
 }
 
 #relational-algebra-division-queries {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 4;
 
     align-self: center;
@@ -188,7 +206,7 @@ iframe {
 }
 
 #cd-demise {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 5;
 
     align-self: center;

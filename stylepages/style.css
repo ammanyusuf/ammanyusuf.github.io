@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+    font-size: 1em;
+
+    font-family: 'Cairo', sans-serif;
+
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+footer {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+
+/* Nav Bar */
+.nobullets {
+    list-style-type: none;
+}
+
+#nav-bar {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: 'Cairo', sans-serif;
+    font-size: 3em;
+}
+
+.nav-bar-item {
+    border: 0.1px solid black;
+    margin: 10px;
+    border-radius: 100px;
+    /*width: 20%;*/
+    flex: 1;
+}
+
+@media all and (max-width: 400px) {
+    .nav-bar-item {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .nav-bar-item {
+        flex-basis: 50%;
+        font-size: 7vh;
+    }
+    #nav-bar {
+        font-size: 5vh;
+    }
+}
+
+.nav-bar-item a {
+    color: black;         ;
+    text-align: center;
+    text-decoration: none;
+    /* This piece of code made the entire anchor tag clickable*/
+    display: inline-block;
+    padding: 15px 15px;
+    /*--------------------------------------------------------*/
+    width: 100%;
+    font-size: 5vh;
+}
+
+.nav-bar-item:hover {
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+}
+
+.nav-bar-item a:hover {
+    color: black;
+}
+/*-------------------------------------------------------------*/
+
+
+/* iFrame Wrapper */
+iframe {
+    top: 0;
+    left: 0;
+    width: 80vh;
+    height: 45vh;
+    padding: 3vh 3vh 3vh 3vh;
+    border-radius: 5vh;
+}
+
+
+/* Main Grid */
+
+
+#container {
+    display: grid;
+    width: 100%;
+}
+
+#about-me {
+    grid-column: 1;
+    grid-row: 1;
+
+    justify-self: center;
+}
+
+.responsive-img {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+
+#projects {
+    grid-column: 2;
+    grid-row: 1;
+
+    display: grid;
+}
+
+#projects p {
+    font-size: 3vh;
+    padding: 3vh;
+    width: 80vh;
+}
+
+#projects a {
+    color: black;
+
+    text-align: center;
+    text-decoration: none;
+    /* This piece of code made the entire anchor tag clickable*/
+    display: inline-block;
+    padding: 15px 15px;
+    /*--------------------------------------------------------*/
+    width: 100%;
+    font-size: 5vh;
+    cursor: pointer;
+}
+
+#projects a:hover {
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+
+#waitless {
+    grid-column: 2;
+    grid-row: 1;
+
+    overflow: auto;
+
+    align-self: center;
+    justify-self: center;
+
+}
+
+#journalr {
+    grid-column: 2;
+    grid-row: 2;
+
+    align-self: center;
+    justify-self: center;
+}
+
+#travollor {
+    grid-column: 2;
+    grid-row: 3;
+
+    align-self: center;
+    justify-self: center;
+}
+
+#relational-algebra-division-queries {
+    grid-column: 2;
+    grid-row: 4;
+
+    align-self: center;
+    justify-self: center;
+}
+
+#cd-demise {
+    grid-column: 2;
+    grid-row: 5;
+
+    align-self: center;
+    justify-self: center;
+}

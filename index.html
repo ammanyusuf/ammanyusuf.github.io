@@ -14,11 +14,14 @@
         <!-- Set up a viewport here, may cause sizing errors here -->
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="stylepages/homepagestyle.css">
+
+        <link rel="stylesheet" href="stylepages/style.css">
+
+        <script src="anime-master/anime-master/lib/anime.min.js"></script>
+
     </head>
     <body>
         <header>
-            <h1> </h1>
             <nav>
                 <ul id="nav-bar">
                     <li class="nav-bar-item"><a href="#">Home Page</a></li>
@@ -29,77 +32,75 @@
                 </ul>
             </nav>
         </header>
-        <!--work pls-->
-        <main>
-            <h1 id="about-me" style="padding-top: 10px; padding-bottom: 10px;">
-                About Me
-            </h1>
-            <div id="about-me" class="img-text-container" style="padding:10px">
-                <!--<img src="/images/AllDay.jpg">-->
-                
-                <img src="/images/amman_pic_tres.jpg" alt="Picture of me, Amman" class="center" style="border-radius: 10px;">
-                <p>
-                    Hello! My name is Amman and welcome to my website (in progress). 
-                </p>
-            </div>
-            <h1 id="projects" style="padding-top: 15px; padding-bottom: 25px; display: block;">
-                Projects
-            </h1>
-            <div id="projects">
-                <!-- Journalr Project -->
-                <div id="journalr">
-                  <a target="_blank" href="https://github.com/ammanyusuf/Journalr">Journalr</a>
-                  <p>
-                    This project allowed me to work in a group of 5 people, building a full-stack website that includes
-                    both HTML, CSS and bootstrap for the front end and MySQL for the backend.  We used the Spring Framework to 
-                    make this possible.
-                  </p>
-                </div>
-                <div id="journalr-video">
-                    <iframe width="560" height="315"
-                    src="https://www.youtube.com/embed/jLNAUnPBoXM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-                <!--------------------->
-    
-                <!-- Travollor Project -->
-                <div id="travollor">
-                    <a target="_blank" href="https://github.com/ammanyusuf/Travollor">Travollor</a>
-                    <p>
-                        This project allowed us to work more with MySQL and develop a database schema.
-                    </p>
-                </div>
-                <div id="travollor-video">
-                    <iframe width="560" height="315" 
-                    src="https://www.youtube.com/embed/3j_y13mKbxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-                <!--------------------->
-    
-                <!-- Relational Algebra Project -->
-                <div id="relational-algebra-division-queries">
-                    <a target="blank" href="https://www.youtube.com/watch?v=HGjXwVgMEfI">Relational Algebra Divsion Queries</a>
-                    <p>
-                        This is a video of me explaining how to do Relational Algebra divison through SQL queries.
-                    </p>
-                </div>
-                <div target="_blank" id="relational-algebra-division-queries-video">
-                    <iframe width="560" height="315"
-                    src="https://www.youtube.com/embed/HGjXwVgMEfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-                <!--------------------->
 
+        <main>
+            <div id="container">
+                <div id="about-me">
+                    <h1 style="text-align: center;">
+                        About Me
+                    </h1>
+                    <img src="/images/amman-cropped.png" alt="Picture of me, Amman" class="responsive-img" style="border-radius: 1000px;">
+                    <p style="font-size: 3vh; padding: 3vh; width: 80vh">
+                        Hello! My name is Amman and welcome to my website (in progress). 
+                    </p>
+                </div>
+                <div id="projects">
+                    <div id=waitless>
+                        <a target="_blank" href="https://github.com/ammanyusuf/WaitLess" class="projects-a">WaitLess</a>
+    
+                        <p>
+                            Worked in a group of 5 people.  Foucsed on Human Computer Interaction and UX design.  Conducted user research to gather data.  Used that data along with Adobe XD to build a high fidelity prototype
+                        </p>
+    
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/492zDqviTfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+    
+                    <div id="journalr">
+                        <a target="_blank" href="https://github.com/ammanyusuf/Journalr" class="projects-a">Journalr</a>
+                        
+                        <p>
+                            This project allowed me to work in a group of 5 people, building a full-stack website that includes
+                            both HTML, CSS and bootstrap for the front end and MySQL for the backend.  We used the Spring Framework to 
+                            make this possible.
+                        </p>
+                        
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/jLNAUnPBoXM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+    
+                    <div id="travollor">
+                        <a target="_blank" href="https://github.com/ammanyusuf/Travollor" class="projects-a">Travollor</a>
+                        <p>
+                            This project allowed us to work more with MySQL and develop a database schema.
+                        </p>
+                        <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/3j_y13mKbxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+    
+                    <div id="relational-algebra-division-queries">
+                        <a target="blank" href="https://www.youtube.com/watch?v=HGjXwVgMEfI" class="projects-a">Relational Algebra Divsion Queries</a>
+                        
+                        <p>
+                            This is a video of me explaining how to do Relational Algebra divison through SQL queries.
+                        </p>
+                        
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/HGjXwVgMEfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+    
+                    <div id="cd-demise">
+                        <a target="_blank" href="https://github.com/ammanyusuf/CD_Demise" class="projects-a">CD Demise</a>
+                        <p>
+                                This is a game made for the CPSC 233 class held at the University of Calgary.  It is implemented in Java.
+                        </p>
+                    </div>
+                </div>
                 
-                 <!-- Cd Demise Project -->
-                 <div id="cd-demise">
-                    <a target="_blank" href="https://github.com/ammanyusuf/CD_Demise">CD Demise</a>
-                    <p>
-                         This is a game made for the CPSC 233 class held at the University of Calgary.  It is implemented in Java.
-                     </p>
-                 </div>
-                  <!--------------------->
- 
             </div>
         </main>
 
@@ -122,3 +123,4 @@
         </footer>
     </body>
 </html>
+

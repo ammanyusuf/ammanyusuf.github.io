@@ -7,7 +7,7 @@
     font-size: 1em;
 
     font-family: 'Cairo', sans-serif;
-
+    
 }
 
 h1 {
@@ -17,6 +17,8 @@ h1 {
 footer {
     padding-bottom: 5vh;
     padding-top: 5vh;
+    display: grid;
+    color: white;
 }
 
 
@@ -31,9 +33,9 @@ main {
 }
 
 nav {
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
+    position: fixed;  /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
@@ -48,8 +50,7 @@ nav {
 }
 
 .nav-bar-item {
-    border: 0.1px solid black;
-    
+    /*border: 0.1px solid #333;*/
     /*width: 20%;*/
     flex: 1;
 }
@@ -85,7 +86,7 @@ nav {
 }
 */
 .nav-bar-item a {
-    color: black;         ;
+    color: white;         ;
     text-align: center;
     text-decoration: none;
     /* This piece of code made the entire anchor tag clickable*/
@@ -93,7 +94,7 @@ nav {
     padding: 1vh 1vh;
     /*--------------------------------------------------------*/
     width: 100%;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 .nav-bar-item:hover {
@@ -118,29 +119,18 @@ iframe {
 }
 
 
-/* Main Grid */
-
-
-#container {
+.container {
     display: grid;
-    width: 100%;
+    width: auto;
 }
 
-#about-me {
-    grid-column: 1;
-    grid-row: 1;
-}
 
 .responsive-img {
     width: 30%;
     height: auto;
 }
 
-
 #projects {
-    grid-column: 2;
-    grid-row: 1;
-
     display: grid;
 }
 
@@ -148,24 +138,29 @@ iframe {
     font-size: 3vh;
     padding: 3vh;
     width: 80vh;
+    color: white;
 }
 
 #projects a {
-    color: black;
+    color: white;
+
+    background-color: #333;
+    border-radius: 5vh;
 
     text-align: center;
     text-decoration: none;
     /* This piece of code made the entire anchor tag clickable*/
     display: inline-block;
-    padding: 15px 15px;
+    padding: 1vh 1vh;
     /*--------------------------------------------------------*/
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
     font-size: 5vh;
     cursor: pointer;
 }
 
 #projects a:hover {
-    background-color: antiquewhite;
+    background-color: white;
     color: black;
     cursor: pointer;
 }
@@ -211,4 +206,69 @@ iframe {
 
     align-self: center;
     justify-self: center;
+}
+
+
+/* background image */
+.mountain-background {
+    background: url(/images/asoggetti-17_tB-oI0ao-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -30vh;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px #09141a inset;
+}
+
+/* fading */
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
 }

@@ -122,11 +122,12 @@ iframe {
 .container {
     display: grid;
     width: auto;
+    grid-template-columns: 7fr 12fr;
 }
 
 
 .responsive-img {
-    width: 40%;
+    width: 60%;
     height: auto;
 }
 

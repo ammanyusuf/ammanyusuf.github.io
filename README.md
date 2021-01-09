@@ -1,2 +1,2 @@
 # Amman's Website
-Hello! Welcome to my GitHub pages repository that is hosting my current working version of my website.
+Hello! Welcome to my GitHub pages repository that is hosting the current working version of my website.

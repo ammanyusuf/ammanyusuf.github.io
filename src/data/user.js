@@ -56,11 +56,13 @@ const INFO = {
 		{
 			title: "Federated Learning",
 			description:
-				"As part of my final year thesis project, I worked on a Federated Learning (FL) pipeline for the task of wheat head instance segmentation. It is essentially distributed machine learning on multiple machines. The appeal for FL is privacy and performance as the data is not directly shared between clients when training, only the model is shared. This work has not yet been published, but you can read more of it in my article section where I talk about FL and the work I completed.",
+				"As part of my final year thesis project, I worked on a Federated Learning (FL) pipeline " + 
+				"for the task of wheat head instance segmentation. It is essentially distributed machine learning on multiple machines. " + 
+				"This work has not yet been published, but you can read more of it in my article section where I talk about FL and the work I completed.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			tools: "PyTorch, Deep Learning, U-Net, Clusters, Distributed Machine Learning",
 			linkText: "View Project",
-			link: "https://github.com/ammanyusuf",
+			link: "/articles",
 		},
 
 		{
@@ -70,7 +72,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			tools: "Human-Robot Interaction, HRI, Toio, JavaScript",
 			linkText: "View Project",
-			link: "https://github.com/ammanyusuf",
+			link: "/articles",
 		},
 
 		{

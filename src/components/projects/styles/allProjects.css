@@ -17,6 +17,18 @@
 
 @media (max-width: 600px) {
 	.all-projects-project {
+		width: 100%
+	}
+}
+
+@media (min-width: 600px) {
+	.all-projects-project {
 		width: calc(100% / 2);
+	}
+}
+
+@media (min-width: 768px) {
+	.all-projects-project {
+		width: calc(100% / 3);
 	}
 }

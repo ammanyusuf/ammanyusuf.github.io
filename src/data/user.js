@@ -43,14 +43,17 @@ const INFO = {
 	},
 
 	projects: [
+
 		{
-			title: "CoverHelper",
+			title: "Popin",
 			description:
-				"In my job search post-graduation, I tagged along on a project that helped generate tailored cover letters based on the resume. Helped me (and some friends) get some interviews.",
-			logo: "https://coverhelper.live/favicon/favicon-32x32.png",
-			tools: "React, MUI, Firebase, Node.js, Express.js",
+				"During the summer months after graduation, I worked with a student-run start up called Popin," + 
+				"an event finding platform tailored to university/college campuses. My role mostly involved working in React, Firebase, and iOS. " + 
+				"It is actually the first project where I worked with iOS mobile development and got it deployed on the App Store.",
+			logo: "../popin.png",
+			tools: "React Native, Firebase, iOS",
 			linkText: "View Project",
-			link: "https://coverhelper.live",
+			link: "https://www.popin.ca/",
 		},
 
 		{
@@ -105,6 +108,15 @@ const INFO = {
 			link: "https://observablehq.com/@ammanyusuf/ccs-2021",
 		},
 
+		{
+			title: "CoverHelper",
+			description:
+				"In my job search post-graduation, I tagged along on a project that helped generate tailored cover letters based on the resume. It was a fun side-project that helped me see what went into making a good cover letter (without the use of AI ;).",
+			logo: "https://coverhelper.live/favicon/favicon-32x32.png",
+			tools: "React, MUI, Firebase, Node.js, Express.js",
+			linkText: "View Project",
+			link: "https://coverhelper.live",
+		},
 
 		{
 			title: "WaitLess",

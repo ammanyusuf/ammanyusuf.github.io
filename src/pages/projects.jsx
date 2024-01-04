@@ -54,8 +54,7 @@ const Projects = () => {
 							year thesis project in Federated Learning.
 
 							Check out some of these projects and more by clicking on the project tile.
-							Beware! Some of the earlier projects are from the begining of my career. So be warned
-							for not-so-nice code in these projects ;)
+							Beware! Some of the earlier projects are from the begining of my career ;)
 							<br></br>
 							<br></br>
 							I want to try my hand in contributing in open source projects. Once I do that,

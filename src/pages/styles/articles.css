@@ -41,6 +41,20 @@
 	width: 100%;
 }
 
+.articles-image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.articles-image-wrapper {
+	overflow: hidden;
+}
+
+.articles-image-wrapper img {
+	width: 100%;
+}
+
 @media (max-width: 1024px) {
 	.articles-title {
 		width: 100% !important;

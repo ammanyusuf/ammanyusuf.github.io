@@ -9,7 +9,7 @@ const INFO = {
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/ammanyusuf",
-		linkedin: "https://www.linkedin.com/in/amman-yusuf-230a69177/",
+		linkedin: "https://www.linkedin.com/in/amman-yusuf",
 		instagram: "https://www.instagram.com/ammany85/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
@@ -65,7 +65,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			tools: "PyTorch, Deep Learning, U-Net, Clusters, Distributed Machine Learning",
 			linkText: "View Project",
-			link: "/articles",
+			link: "/article/1",
 		},
 
 		{
@@ -75,7 +75,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			tools: "Human-Robot Interaction, HRI, Toio, JavaScript",
 			linkText: "View Project",
-			link: "/articles",
+			link: "/article/2",
 		},
 
 		{

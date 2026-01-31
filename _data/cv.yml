@@ -208,19 +208,7 @@ cv:
 
     Skills:
       - name: Technical
-        keywords:
-          - Python
-          - PyTorch
-          - React
-          - TypeScript
-          - Java
-          - AWS
-          - Linux
-          - C++
-          - Bash
-          - PostgreSQL
-          - MongoDB
-          - Git
+        keywords: "Python, PyTorch, React, TypeScript, Java, AWS, Linux, C++, Bash, PostgreSQL, MongoDB, Git"
 
     Interests:
       - name: Research

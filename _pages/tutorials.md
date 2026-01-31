@@ -12,6 +12,7 @@ A curated list of hands-on guides and practical notes. New tutorials will appear
 {% assign tutorial_posts = site.posts | where_exp: "post", "post.tags contains 'tutorial'" %}
 
 {% if tutorial_posts.size > 0 %}
+
 <ul class="post-list">
   {% for post in tutorial_posts %}
     <li>

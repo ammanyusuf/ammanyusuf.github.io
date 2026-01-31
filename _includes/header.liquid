@@ -4,7 +4,7 @@
     <div class="container">
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
         {% if site.icon contains '.png' or site.icon contains '.jpg' or site.icon contains '.jpeg' or site.icon contains '.svg' %}
-          <img src="{{ site.icon | prepend: '/assets/img/' | relative_url }}" alt="Logo" style="height: 28px; margin-right: 8px;" />
+          <img src="{{ site.icon | prepend: '/assets/img/' | relative_url }}" alt="Logo" style="height: 28px; margin-right: 8px;">
         {% endif %}
         {% if site.title == 'blank' %}
           {% if site.first_name %}

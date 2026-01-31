@@ -9,6 +9,7 @@ category: research
 A thesis project exploring distributed computer vision training across multiple clients without centralizing data.
 
 Highlights:
+
 - Benchmarked against centralized baselines with IoU and Dice scores up to 95%.
 - Built data transformation and cleaning pipelines for heterogeneous wheat imagery.
 - Used a model-agnostic design to compare FL strategies.

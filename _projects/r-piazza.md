@@ -10,6 +10,7 @@ github: https://github.com/ammanyusuf/rPiazza
 A distributed canvas experiment focused on consistency, race conditions, and scale.
 
 Highlights:
+
 - Built a collaborative pixel canvas with conflict resolution strategies.
 - Explored tradeoffs between latency and consistency under heavy write load.
 

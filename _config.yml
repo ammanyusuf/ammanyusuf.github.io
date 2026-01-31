@@ -9,13 +9,12 @@ last_name: Yusuf
 contact_note: >
   Best way to reach me: email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Amman Yusuf is a machine learning engineer and researcher working across machine learning, computer
-  vision, and data-driven systems with research and industry experience.
+  Amman Yusuf is a machine learning engineer and researcher working across machine learning and software engineering
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Amman Yusuf, Amman, machine learning engineer, machine learning researcher, artificial intelligence, deep learning, computer vision, data science, data systems, federated learning, privacy, safety, responsible AI, software engineering
+keywords: Amman Yusuf, Amman, machine learning engineer, machine learning researcher, artificial intelligence, deep learning, diffusion, descrete diffusion, text diffusion models, llm, llms, differential privacy, data science, data systems, privacy, safety, responsible AI, software engineering
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

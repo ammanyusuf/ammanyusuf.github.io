@@ -1,189 +1,276 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Amman Yusuf
+  label: Computer Scientist
+  email: ammanyusuf85@gmail.com
+  website: https://ammanyusuf.me
+  summary: >
+    Computer scientist with experience across machine learning, computer vision, data systems, and
+    full-stack engineering. Currently in Dr. Mijung Park's lab on privacy and safety, connecting
+    research with real-world product impact.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: ammanyusuf
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: amman-yusuf
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: The University of British Columbia
+        area: Computer Science
+        studyType: Master of Science
+        start_date: 2024
+        end_date: 2026
         highlights:
-          - Description 1.
-          - Description 2.
+          - "GPA: 4.00"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Calgary
+        area: Computer Science
+        studyType: Bachelor of Science, First Class Honours
+        start_date: 2018
+        end_date: 2023
         highlights:
-          - Description 1.
-          - Description 2.
+          - "GPA: 3.98"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of British Columbia
+        position: Research Assistant
+        start_date: 2025-09
+        end_date: Present
+        summary: "Sep 2025 - Present"
         highlights:
-          - Relativity
-          - Description 2.
+          - Research in privacy and safety with diffusion models.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: University of British Columbia
+        position: Graduate Teaching Assistant
+        start_date: 2025-01
+        end_date: 2025-05
+        summary: "Jan 2025 - May 2025"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Supported course instruction, grading, and student support.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: EV.com
+        position: Fullstack Software Engineer
+        start_date: 2024
+        end_date: 2025
+        highlights:
+          - Integrated retrieval-augmented generation with vector search in MongoDB for LLM projects.
+          - Led generated metadata tagging for vehicle listings to improve search relevance.
+          - Built ML-backed relevance ranking with LightGBM, improving results by 15%.
+          - Streamlined authentication flows in React and Next.js, increasing sign-ups by 10%.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Amazon Web Services
+        position: Software Engineer Intern
+        start_date: 2022
+        end_date: 2022
+        highlights:
+          - Built a pipeline to gather and analyze PostgreSQL statistics.
+          - Maintained Kotlin Lambda code to extract 10 GB of stats on a CRON schedule.
+          - Worked in an Agile, TDD-oriented workflow using Jira and Git.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Oncology Outcomes
+        position: Data Science Intern
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - Built web solutions in .NET integrated with R-based ML models for outcome prediction.
+          - Extracted 200k+ records from electronic health data for information extraction research.
+          - Improved ML analysis performance by 10x through system optimization.
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: University of Calgary Fencing Club
+        position: Outreach Coordinator
+        start_date: 2023
+        end_date: 2024
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Ran classes, refereed matches, and coached 1-on-1 fencing lessons.
+          - Organized tournaments, merchandise, and competition medals.
+          - Led social media efforts, growing membership from 7 to 60 students.
+          - Competed as a sabre fencer and helped with coaching and instruction.
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: NSERC Canada Graduate Scholarships Master's (CGS M)
+        date: 2025
+        awarder: NSERC
+        summary: "$27,000"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: NSERC Research Award
+        date: 2023
+        awarder: NSERC
+        summary: "$7,500"
+
+      - title: Dean's List Recipient
+        date: 2023
+        awarder: University of Calgary
+        summary: "2018-2023"
+
+      - title: President's Entrance Scholarship
+        date: 2018
+        awarder: University of Calgary
+        summary: "$5,000"
+
+      - title: Louise McKinney Scholarship
+        date: 2018
+        awarder: Government of Alberta
+        summary: "$2,500"
+
+      - title: Jason Lang Scholarship
+        date: 2020
+        awarder: Government of Alberta
+        summary: "$1,000 (2018-2020)"
+
+      - title: Viscount Bennet Scholarship
+        date: 2018
+        awarder: Government of Alberta
+        summary: "$1,000"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Training-Free Safe Denoisers for Safe Use of Diffusion Models
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Mingyu Kim
+          - Dongjun Kim
+          - Amman Yusuf
+          - Stefano Ermon
+          - Mijung Park
+        publisher: NeurIPS
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2502.08011
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Text analysis framework for identifying mutations among non-small cell lung cancer patients from laboratory data
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - A. Yusuf
+          - D. J. Boyne
+          - D. E. O'Sullivan
+          - D. R. Brenner
+          - W. Y. Cheung
+          - I. Mirza
+          - T. N. Jarada
+        publisher: BMC Medical Research Methodology
+        releaseDate: 2024-03
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Prevalence, treatment patterns, and outcomes of individuals with EGFR positive metastatic non-small cell lung cancer in a Canadian real-world setting
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - D. E. O'Sullivan
+          - T. N. Jarada
+          - A. Yusuf
+          - L. X. Y. Hu
+          - P. Gogna
+          - D. R. Brenner
+          - E. Abbie
+          - J. B. Rose
+          - K. Eaton
+          - J. Elia-Pacitti
+          - E. M. Ewara
+          - A. Pabani
+          - W. Y. Cheung
+          - D. J. Boyne
+        publisher: Current Oncology
+        releaseDate: 2022
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: The impact of population-based EGFR testing in non-squamous metastatic non-small cell lung cancer in Alberta, Canada
+        authors:
+          - D. R. Brenner
+          - D. E. O'Sullivan
+          - T. N. Jarada
+          - A. Yusuf
+          - D. J. Boyne
+          - C. A. Mather
+          - A. Box
+          - D. G. Morris
+          - W. Y. Cheung
+          - I. Mirza
+        publisher: Lung Cancer
+        releaseDate: 2023
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Federated Learning for Computer Vision
+        summary: Distributed learning pipeline for wheat head instance segmentation using a modified U-Net.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Achieved IoU and Dice scores up to 95% with model-agnostic comparisons.
+          - Built data transformation and cleaning pipelines for diverse imagery.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Emotion in Motion
+        summary: HRI study on perceived emotion from non-anthropomorphic robot motion.
+        highlights:
+          - Programmed Sony Toio robots in JavaScript for participant studies.
+          - Analyzed motion patterns and proposed expressive strategies.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Popin
+        summary: Student event discovery app deployed to iOS.
+        highlights:
+          - Managed React Native app infrastructure and performance.
+          - Incorporated user feedback to improve retention and UX.
+
+      - name: Canadian Cancer Society Visualization
+        summary: Data visualization suite exploring cancer statistics in Canada.
+        highlights:
+          - Built 22 interactive visualizations with D3 and Python.
+          - Applied PCA and regression to cleaned datasets.
+
+      - name: WaitLess Queueing App Prototype
+        summary: UX/UI prototype for university advising queues.
+        highlights:
+          - Designed a high-fidelity interface with Adobe XD and Figma.
+          - Conducted heuristic evaluation and user research.
+
+    Skills:
+      - name: Technical
+        keywords:
+          - Python
+          - PyTorch
+          - React
+          - TypeScript
+          - Java
+          - AWS
+          - Linux
+          - C++
+          - Bash
+          - PostgreSQL
+          - MongoDB
+          - Git
+
+    Interests:
+      - name: Research
+        keywords: "Diffusion models, text diffusion models, privacy, safety, responsible AI"
+
+    Training:
+      - bullet: "CIFAR Deep Learning + Reinforcement Learning (DLRL) Summer School (Amii): focused on reinforcement learning, attended talks by Adam White, Marlos Machado, Martha White, and Richard Sutton, explored KAN networks for RL tasks, and built connections in the international deep learning community."
+
+    # Interests:
+    #   - name: Physics
+    #     icon: fa-solid fa-tag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
+
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
+
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
+
+    # References:
+    #   - name: Professor John Doe
+    #     icon: fa-solid fa-laptop
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+    #   - name: Professor Jane Smith
+    #     icon: fa-solid fa-thumbtack
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+

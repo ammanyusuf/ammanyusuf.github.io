@@ -126,7 +126,7 @@ cv:
           - Stefano Ermon
           - Mijung Park
         publisher: NeurIPS
-        releaseDate: 2025
+        releaseDate: "2025"
         url: https://arxiv.org/abs/2502.08011
 
       - title: Text analysis framework for identifying mutations among non-small cell lung cancer patients from laboratory data
@@ -139,7 +139,7 @@ cv:
           - I. Mirza
           - T. N. Jarada
         publisher: BMC Medical Research Methodology
-        releaseDate: 2024-03
+        releaseDate: "2024-03"
 
       - title: Prevalence, treatment patterns, and outcomes of individuals with EGFR positive metastatic non-small cell lung cancer in a Canadian real-world setting
         authors:
@@ -158,7 +158,7 @@ cv:
           - W. Y. Cheung
           - D. J. Boyne
         publisher: Current Oncology
-        releaseDate: 2022
+        releaseDate: "2022"
 
       - title: The impact of population-based EGFR testing in non-squamous metastatic non-small cell lung cancer in Alberta, Canada
         authors:
@@ -173,7 +173,7 @@ cv:
           - W. Y. Cheung
           - I. Mirza
         publisher: Lung Cancer
-        releaseDate: 2023
+        releaseDate: "2023"
 
     Projects:
       - name: Federated Learning for Computer Vision

@@ -36,7 +36,7 @@ cv:
       - company: University of British Columbia
         position: Research Assistant
         start_date: 2025-09
-        end_date: Present
+        end_date: present
         summary: "Sep 2025 - Present"
         highlights:
           - Research in privacy and safety with diffusion models.
@@ -89,40 +89,33 @@ cv:
           - Competed as a sabre fencer and helped with coaching and instruction.
 
     Awards:
-      - title: NSERC Canada Graduate Scholarships Master's (CGS M)
+      - name: "NSERC Canada Graduate Scholarships Master's (CGS M)"
         date: 2025
-        awarder: NSERC
-        summary: "$27,000"
+        summary: "NSERC — $27,000"
 
-      - title: NSERC Research Award
+      - name: NSERC Research Award
         date: 2023
-        awarder: NSERC
-        summary: "$7,500"
+        summary: "NSERC — $7,500"
 
-      - title: Dean's List Recipient
-        date: 2023
-        awarder: University of Calgary
-        summary: "2018-2023"
+      - name: Dean's List Recipient
+        date: "2018-2023"
+        summary: University of Calgary
 
-      - title: President's Entrance Scholarship
+      - name: President's Entrance Scholarship
         date: 2018
-        awarder: University of Calgary
-        summary: "$5,000"
+        summary: "University of Calgary — $5,000"
 
-      - title: Louise McKinney Scholarship
+      - name: Louise McKinney Scholarship
         date: 2018
-        awarder: Government of Alberta
-        summary: "$2,500"
+        summary: "Government of Alberta — $2,500"
 
-      - title: Jason Lang Scholarship
-        date: 2020
-        awarder: Government of Alberta
-        summary: "$1,000 (2018-2020)"
+      - name: Jason Lang Scholarship
+        date: "2018-2020"
+        summary: "Government of Alberta — $1,000"
 
-      - title: Viscount Bennet Scholarship
+      - name: Viscount Bennet Scholarship
         date: 2018
-        awarder: Government of Alberta
-        summary: "$1,000"
+        summary: "Government of Alberta — $1,000"
 
     Publications:
       - title: Training-Free Safe Denoisers for Safe Use of Diffusion Models

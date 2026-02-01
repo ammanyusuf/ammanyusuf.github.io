@@ -91,31 +91,31 @@ cv:
     Awards:
       - name: "NSERC Canada Graduate Scholarships Master's (CGS M)"
         date: 2025
-        summary: "NSERC — $27,000"
+        summary: "NSERC Canada Graduate Scholarships Master's (CGS M) — $27,000"
 
-      - name: NSERC Research Award
+      - name: "NSERC Research Award"
         date: 2023
-        summary: "NSERC — $7,500"
+        summary: "NSERC Research Award — $7,500"
 
-      - name: Dean's List Recipient
+      - name: "Dean's List Recipient"
         date: "2018-2023"
-        summary: University of Calgary
+        summary: "Dean's List Recipient - University of Calgary"
 
-      - name: President's Entrance Scholarship
+      - name: "President's Entrance Scholarship"
         date: 2018
-        summary: "University of Calgary — $5,000"
+        summary: "President's Entrance Scholarship - University of Calgary — $5,000"
 
-      - name: Louise McKinney Scholarship
+      - name: "Louise McKinney Scholarship"
         date: 2018
-        summary: "Government of Alberta — $2,500"
+        summary: "Louise McKinney Scholarship - Government of Alberta — $2,500"
 
-      - name: Jason Lang Scholarship
+      - name: "Jason Lang Scholarship"
         date: "2018-2020"
-        summary: "Government of Alberta — $1,000"
+        summary: "Jason Lang Scholarship - Government of Alberta — $1,000"
 
-      - name: Viscount Bennet Scholarship
+      - name: "Viscount Bennet Scholarship"
         date: 2018
-        summary: "Government of Alberta — $1,000"
+        summary: "Viscount Bennet Scholarship - Government of Alberta — $1,000"
 
     Publications:
       - title: Training-Free Safe Denoisers for Safe Use of Diffusion Models
@@ -213,6 +213,8 @@ cv:
     Interests:
       - name: Research
         keywords: "Diffusion models, text diffusion models, privacy, safety, responsible AI"
+      - name: Hobbies
+        keywords: "Fencing, hiking, sourdough baking"
 
     Training:
       - bullet: "CIFAR Deep Learning + Reinforcement Learning (DLRL) Summer School (Amii): focused on reinforcement learning, attended talks by Adam White, Marlos Machado, Martha White, and Richard Sutton, explored KAN networks for RL tasks, and built connections in the international deep learning community."
